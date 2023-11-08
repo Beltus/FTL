@@ -23,5 +23,7 @@ def isEven(n1, n2):
     return results
 
 demo = gr.Interface(fn=isEven, inputs=["number" , "number"], outputs="text")
+
+print('I like machine learning')
     
 demo.launch()   
